@@ -6,18 +6,18 @@ export const Contact = () => {
       <h1>Get in Touch</h1>
       <table>
         <tr>
-          <td>Name</td>
+          <td class="heading">Name</td>
           <td>Chirag Chakraborty</td>
         </tr>
         <tr>
-          <td>Email</td>
+          <td class="heading">Email</td>
           <td>chiragchakraborty48@gmail.com</td>
         </tr>
         <tr>
-          <td>Code</td>
+          <td class="heading">Code</td>
           <td>
             <a
-              href="https://github.com/noobchirag69"
+              href="https://github.com/noobchirag69/React_Movie_Search"
               target="_blank"
               rel="noreferrer"
             >

@@ -1,19 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Russo One', sans-serif;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: buttonface;
-    border-bottom: 1px solid #ccc;
+    padding: 20px 30px;
 }
 
 .nav-logo h1 {
@@ -34,7 +23,7 @@ nav {
     margin: 50px auto;
     max-width: 600px;
     padding: 30px;
-    border: 1px solid #000;
+    border: 1px solid #ccc;
     text-align: center;
 }
 
@@ -61,17 +50,24 @@ nav {
 .searchContainer input {
     padding: 10px 20px;
     margin-right: 10px;
-    border: 1px solid #ccc;
+    border: none;
+    outline: none;
+    border-radius: 5px;
     width: 600px;
     font-size: 18px;
 }
 
 .searchContainer button {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
     width: 150px;
     font-size: 18px;
+}
+
+.searchContainer button:hover {
+    background: #fff;
 }
 
 .box {
@@ -85,15 +81,19 @@ nav {
     text-align: center;
 }
 
+.movieCard h3 {
+    letter-spacing: 1px;
+}
+
 .imgContainer {
-    height: 400px;
+    height: 450px;
     margin-bottom: 20px;
 }
 
 .imgContainer img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    border-radius: 15px;
 }
 
 .empty {
@@ -110,4 +110,9 @@ table {
 td {
     border: 1px solid #ccc;
     padding: 10px 20px;
+}
+
+.heading {
+    background-color: steelblue;
+    color: #000;
 }

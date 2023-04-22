@@ -2,10 +2,9 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const style = {
-    marginLeft: "20px",
+    marginLeft: "30px",
     textDecoration: "none",
-    color: "#000",
-    fontSize: "18px",
+    color: "#fff",
   };
   return (
     <nav>
