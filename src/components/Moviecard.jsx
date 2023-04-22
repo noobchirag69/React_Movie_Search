@@ -15,12 +15,13 @@ export const MovieCard = ({ movie }) => {
               : "https://via.placeholder.com/400"
           }
           alt={movie.Title}
+          title={movie.Title}
         />
       </div>
       <h3 style={{ letterSpacing: "1px", marginBottom: "10px" }}>
         {movie.Title} ({movie.Year})
       </h3>
-      <p>Type: {movie.Type}</p>
+      <p style={{ textTransform: "capitalize" }}>Type: {movie.Type}</p>
     </div>
   );
 };
