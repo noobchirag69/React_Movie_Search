@@ -33,7 +33,9 @@ export const Home = () => {
         padding: "20px",
       }}
     >
-      <h1 style={{ marginBottom: "20px", textAlign: "center" }}>
+      <h1
+        style={{ marginBottom: "20px", textAlign: "center", fontSize: "36px" }}
+      >
         Movie Search
       </h1>
       <Search
