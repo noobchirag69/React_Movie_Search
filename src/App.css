@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: buttonface;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-logo h1 {
+    letter-spacing: 1px;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 30px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.wrapper h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.searchContainer {
+    text-align: center;
+}
+
+.searchContainer input {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    width: 600px;
+    font-size: 18px;
+}
+
+.searchContainer button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.movieCard {
+    text-align: center;
+}
+
+.imgContainer {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.empty {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
