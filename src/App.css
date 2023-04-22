@@ -29,3 +29,12 @@ td {
   background-color: steelblue;
   color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    border: none;
+  }
+  td {
+    font-size: 12px;
+  }
+}
