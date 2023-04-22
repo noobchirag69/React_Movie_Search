@@ -23,22 +23,49 @@ export const Home = () => {
       }
     }
   };
+
   return (
-    <div className="wrapper">
-      <h1>React Project | Movie Search</h1>
+    <div
+      className="wrapper"
+      style={{
+        maxWidth: "1400px",
+        margin: "20px auto",
+        padding: "20px",
+      }}
+    >
+      <h1 style={{ marginBottom: "20px", textAlign: "center" }}>
+        Movie Search
+      </h1>
       <Search
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         searchMovies={searchMovies}
       />
       {movies.length > 0 ? (
-        <div className="box">
+        <div
+          className="box"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, 300px)",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "40px",
+            marginTop: "50px",
+          }}
+        >
           {movies.map((movie) => {
             return <MovieCard movie={movie} />;
           })}
         </div>
       ) : (
-        searchEmpty && <div className="empty">No movies found!</div>
+        searchEmpty && (
+          <div
+            className="empty"
+            style={{ marginTop: "50px", fontSize: "24px", textAlign: "center" }}
+          >
+            No movies found!
+          </div>
+        )
       )}
     </div>
   );

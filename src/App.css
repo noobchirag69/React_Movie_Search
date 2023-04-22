@@ -1,118 +1,31 @@
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
+.navLink {
+  margin-left: 30px;
+  text-decoration: none;
+  color: rgb(255, 177, 138);
 }
 
-.nav-logo h1 {
-    letter-spacing: 1px;
-}
-
-.nav-list ul {
-    display: flex;
-    list-style-type: none;
-}
-
-.nav-list li {
-    margin-left: 20px;
-    font-size: 18px;
+.navLink:hover {
+  color: #fff;
 }
 
 .container {
-    margin: 50px auto;
-    max-width: 600px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
 }
 
 .container h1 {
-    margin-bottom: 20px;
-}
-
-.wrapper {
-    max-width: 1400px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-.wrapper h1 {
-    margin-bottom: 20px;
-    text-align: center;
-    letter-spacing: 1.5px;
-}
-
-.searchContainer {
-    text-align: center;
-}
-
-.searchContainer input {
-    padding: 10px 20px;
-    margin-right: 10px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    width: 600px;
-    font-size: 18px;
-}
-
-.searchContainer button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 150px;
-    font-size: 18px;
-}
-
-.searchContainer button:hover {
-    background: #fff;
-}
-
-.box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    margin-top: 50px;
-}
-
-.movieCard {
-    text-align: center;
-}
-
-.movieCard h3 {
-    letter-spacing: 1px;
-}
-
-.imgContainer {
-    height: 450px;
-    margin-bottom: 20px;
-}
-
-.imgContainer img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-}
-
-.empty {
-    margin-top: 50px;
-    font-size: 24px;
-    text-align: center;
-}
-
-table {
-    margin: 0 auto;
-    border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
 td {
-    border: 1px solid #ccc;
-    padding: 10px 20px;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
 }
 
 .heading {
-    background-color: steelblue;
-    color: #000;
+  background-color: steelblue;
+  color: #000;
 }

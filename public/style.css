@@ -9,7 +9,12 @@
 
 body {
     background-color: rgb(44, 44, 44);
-    color: #fff;
+    color: rgb(255, 177, 138);
+}
+
+h1 {
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px #777;
 }
 
 a {

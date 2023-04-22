@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div className="container">
       <h1>Get in Touch</h1>
-      <table>
+      <table style={{ margin: "0 auto", borderCollapse: "collapse" }}>
         <tr>
           <td class="heading">Name</td>
           <td>Chirag Chakraborty</td>

@@ -1,25 +1,27 @@
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-  const style = {
-    marginLeft: "30px",
-    textDecoration: "none",
-    color: "#fff",
-  };
   return (
-    <nav>
+    <nav
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "20px 30px",
+      }}
+    >
       <div className="nav-logo">
-        <h1>Movie Search</h1>
+        <h1>React</h1>
       </div>
       <div className="nav-list">
-        <ul>
-          <Link to={"/"} style={style}>
+        <ul style={{ display: "flex", listStyle: "none" }}>
+          <Link className="navLink" to={"/"}>
             Home
           </Link>
-          <Link to={"/about"} style={style}>
+          <Link className="navLink" to={"/about"}>
             About
           </Link>
-          <Link to={"/contact"} style={style}>
+          <Link className="navLink" to={"/contact"}>
             Contact
           </Link>
         </ul>
